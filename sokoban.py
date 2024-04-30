@@ -215,8 +215,6 @@ class Sokoban(object):
             n = dd.nodeCount;
             self.it += 1;
             self.maxNodes = max(self.maxNodes, n);
-            print("iteration %3d: %6d nodes, %6d peak"
-                   % (self.it, n, self.maxNodes), end="\r");
 
     def reachBFS(self):
         """
